@@ -1,0 +1,16 @@
+public class AdapterPatternDemo {
+
+	public static void main(String[] args) {
+
+		AudioPlayer audioPlayer = new AudioPlayer();
+
+		System.out.println("1");
+		audioPlayer.play("mp3", "SmellsLikeTeenSpirit.mp3");
+		System.out.println("2");
+		audioPlayer.play("mp4", "SweetDreamsAreMadeOfThis.mp4");
+		System.out.println("3");
+		audioPlayer.play("vlc", "Only.vlc");
+		System.out.println("4");
+		audioPlayer.play("avi", "SoFarAway.avi");
+	}
+}
